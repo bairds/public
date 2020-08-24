@@ -19,7 +19,7 @@ div.IATS_Div {
 }
 
 div.IATS_InnerDiv {
-    background: pink; /* #f1f6f6;  light grayish cyan */
+    /* background: pink;  #f1f6f6;  light grayish cyan */
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
