@@ -23,6 +23,9 @@ div.IATS_InnerDiv {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+  background: url("https://raw.githubusercontent.com/bairds/public/master/SAV%20background%20720X1200.jpg") no-repeat;
+    background-size: auto;
+background-size: cover;
 }
 body {
  /*background-image: url("https://watergrass-demo-dev-ed--c.documentforce.com/servlet/servlet.ImageServer?id=0150W00000Fir3A&oid=00Dd0000000dg1O&lastMod=1595806941000");*/
