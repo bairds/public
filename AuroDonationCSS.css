@@ -5,7 +5,7 @@ div.IATS_Div {
     border: 9px solid #3a99b4; /* moderate cyan */
     color: #000;
     font-family: helvetica, arial, sans-serif;
-    font-size: 100%;
+    font-size: medium;
     margin-bottom: 40px;
     padding: 4px;
 }
