@@ -10,6 +10,10 @@ div.IATS_Div {
     padding: 4px;
 }
 
+div.IATS_AmountSectionTitle{
+    color: #006699;
+}
+
 div.IATS_InnerDiv {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -20,8 +24,4 @@ div.IATS_InnerDiv {
 
 .td{
     font-size: medium;
-}
-
-.IATS_AmountSectionTitle{
-    color: #006699;
 }
