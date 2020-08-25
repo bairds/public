@@ -22,6 +22,6 @@ div.IATS_InnerDiv {
     font-size: medium;
 }
 
-.IATS_AmountSectionTitle{
-    color: dark green;
+.span.IATS_AmountSectionTitle{
+    color: #006699;
 }
