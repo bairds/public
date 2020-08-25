@@ -1,0 +1,23 @@
+div.IATS_Div {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: 9px solid #3a99b4; /* moderate cyan */
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: medium;
+    margin-bottom: 40px;
+    padding: 4px;
+}
+
+div.IATS_InnerDiv {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: url("https://bairds.github.io/public/Confetti.jpg") no-repeat;
+    background-size: cover;
+}
+
+.td{
+    font-size: medium;
+}
