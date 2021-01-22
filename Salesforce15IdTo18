@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Create an 18 digit Salesforce Id from a 15 Digit Id</title>
+<script type="text/javascript">
+document.onreadystatechange = function(){
+var input=prompt('Enter 15-character ID');
+var output;
+	if(input.length == 15){
+		var addon="";
+		for(var block=0;block<3; block++)
+		{
+			var loop=0;
+			for(var position=0;position<5;position++){
+				var current=input.charAt(block*5+position);
+				if(current>="A" && current<="Z")
+					loop+=1<<position;
+			}
+			addon+="ABCDEFGHIJKLMNOPQRSTUVWXYZ012345".charAt(loop);
+		}
+		output=(input+addon);
+	}
+	else{
+		alert("Error : "+input+" isn't 15 characters ("+input.length+")");
+		return;
+	}
+prompt('18-character ID:',output);
+})();
+</script>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 
